@@ -3,8 +3,8 @@ const Join = () => {
     <div class="container mt-4">
       <h2>JOIN THE TEAM</h2>
       <p>
-        We are actively seeking individuals who are reliable and resourceful
-        team players who will be committed to assisting with our efforts.
+        We are actively seeking reliable, resourceful team players with valuable
+        skills, who are committed to supporting our efforts.
       </p>
       <p>
         If this is you, submit your application TODAY! Serious inquiries only!

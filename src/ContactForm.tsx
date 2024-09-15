@@ -2,9 +2,6 @@ import { useState } from "preact/hooks";
 import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
-  // const SERVICE = "shine_service";
-  // const PUBLIC_KEY = "hdUiCwfeduPP5Zwgf";
-  // const TEMPLATE_ID = "shine_form";
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [stateMessage, setStateMessage] = useState<string | null>(null);
   const sendEmail = (e: any) => {
@@ -19,10 +16,10 @@ const ContactForm = () => {
     `;
     emailjs
       .sendForm(
-        import.meta.env.REACT_APP_SERVICE_ID!,
-        import.meta.env.REACT_APP_TEMPLATE_ID!,
+        import.meta.env.VITE_SERVICE_ID!,
+        import.meta.env.VITE_TEMPLATE_ID!,
         e.target,
-        import.meta.env.REACT_APP_PUBLIC_KEY
+        import.meta.env.VITE_PUBLIC_KEY
       )
       .then(
         () => {
