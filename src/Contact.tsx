@@ -5,7 +5,7 @@ const Contact = () => {
       <h1>CONTACT US</h1>
       <p>
         Should you have questions and/or concerns, please feel free to contact
-        us at shine.events72@gmail.com
+        us. We will get back to you as soon as possible.
       </p>
       <ContactForm />
     </div>

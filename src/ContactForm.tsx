@@ -1,7 +1,5 @@
 import { useState } from "preact/hooks";
 import emailjs from "@emailjs/browser";
-import dotenv from "dotenv";
-dotenv.config();
 
 const ContactForm = () => {
   // const SERVICE = "shine_service";
@@ -21,20 +19,20 @@ const ContactForm = () => {
     `;
     emailjs
       .sendForm(
-        process.env.REACT_APP_SERVICE_ID!,
-        process.env.REACT_APP_TEMPLATE_ID!,
+        import.meta.env.REACT_APP_SERVICE_ID!,
+        import.meta.env.REACT_APP_TEMPLATE_ID!,
         e.target,
-        process.env.REACT_APP_PUBLIC_KEY
+        import.meta.env.REACT_APP_PUBLIC_KEY
       )
       .then(
-        (result) => {
+        () => {
           setStateMessage("Message sent!");
           setIsSubmitting(false);
           setTimeout(() => {
             setStateMessage(null);
           }, 5000); // hide message after 5 seconds
         },
-        (error) => {
+        () => {
           setStateMessage("Something went wrong, please try again later");
           setIsSubmitting(false);
           setTimeout(() => {

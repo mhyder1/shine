@@ -7,7 +7,6 @@ import Contact from "./Contact";
 import Home from "./Home";
 import Events from "./Events";
 import Join from "./Join";
-
 export function App() {
   return (
     <>
