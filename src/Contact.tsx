@@ -1,3 +1,4 @@
+import ContactForm from "./ContactForm";
 const Contact = () => {
   return (
     <div class="container mt-4">
@@ -6,6 +7,7 @@ const Contact = () => {
         Should you have questions and/or concerns, please feel free to contact
         us at shine.events72@gmail.com
       </p>
+      <ContactForm />
     </div>
   );
 };
