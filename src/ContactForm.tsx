@@ -5,7 +5,6 @@ const ContactForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [stateMessage, setStateMessage] = useState<string | null>(null);
   const sendEmail = (e: any) => {
-    console.log(import.meta.env);
     e.preventDefault();
     setIsSubmitting(true);
     const message = e.target[2].value;
