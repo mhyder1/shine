@@ -4,8 +4,8 @@ const Contact = () => {
     <div class="container mt-4">
       <h1>CONTACT US</h1>
       <p>
-        Should you have questions and/or concerns, please feel free to contact
-        us. We will get back to you as soon as possible.
+        Got questions/concerns or would like to hire S.H.I.N.E. to plan your
+        upcoming event?
       </p>
       <ContactForm />
     </div>

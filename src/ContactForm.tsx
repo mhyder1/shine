@@ -44,7 +44,9 @@ const ContactForm = () => {
   return (
     <form onSubmit={sendEmail}>
       <div class="form-group">
-        <label for="name">Full name</label>
+        <label for="name">
+          Full name<span>*</span>
+        </label>
         <input
           type="text"
           class="form-control"
@@ -55,7 +57,9 @@ const ContactForm = () => {
         />
       </div>
       <div class="form-group">
-        <label for="email">Email address</label>
+        <label for="email">
+          Email address<span>*</span>
+        </label>
         <input
           type="email"
           class="form-control"
@@ -70,7 +74,9 @@ const ContactForm = () => {
         </small>
       </div>
       <div class="form-group">
-        <label for="message">Message</label>
+        <label for="message">
+          Message<span>*</span>
+        </label>
         <textarea
           id="message"
           name="message"

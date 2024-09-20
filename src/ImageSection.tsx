@@ -1,6 +1,7 @@
 import flower from "./assets/flower.jpeg";
 import event from "./assets/event.jpg";
 import showcase3 from "./assets/bg-showcase-3.jpg";
+import grad from "./assets/grad.jpg";
 
 const ImageSection = () => {
   return (
@@ -14,9 +15,11 @@ const ImageSection = () => {
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
             <h2>Educational Programs</h2>
             <p class="lead mb-0">
-              When you use a theme created by Start Bootstrap, you know that the
-              theme will look great on any device, whether it's a phone, tablet,
-              or desktop the page will behave responsively!
+              Our educational events are designed to inspire and empower all by
+              providing structured learning opportunities that will enhance
+              knowledge and skills in specific subject areas. These programs
+              include workshops, conferences, mentorship, and hands-on
+              experiences, targeting various age groups and skill levels.
             </p>
           </div>
         </div>
@@ -33,24 +36,26 @@ const ImageSection = () => {
           <div class="col-lg-6 my-auto showcase-text">
             <h2>Community Engagement Events</h2>
             <p class="lead mb-0">
-              Newly improved, and full of great utility classes, Bootstrap 5 is
-              leading the way in mobile responsive web development! All of the
-              themes on Start Bootstrap are now using Bootstrap 5!
+              SHINE's events are professionally designed to create
+              collaboration, personal growth, and social impact. They unite
+              individuals and organizations to address local challenges through
+              workshops, volunteer initiatives, and networking opportunities.
             </p>
           </div>
         </div>
         <div class="row g-0">
           <div
             class="col-lg-6 order-lg-2 text-white showcase-img"
-            style={{ backgroundImage: `url(${showcase3})` }}
+            style={{ backgroundImage: `url(${grad})` }}
           ></div>
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
             <h2>Scholarships</h2>
             <p class="lead mb-0">
-              Landing Page is just HTML and CSS with a splash of SCSS for users
-              who demand some deeper customization options. Out of the box, just
-              add your content and images, and your new landing page will be
-              ready to go!
+              Shine's Scholarship Program offers financial support to
+              outstanding high school seniors pursuing higher education, helping
+              to ease the burden of tuition and other academic expenses. It
+              empowers future leaders by recognizing academic excellence,
+              leadership qualities, and community involvement.
             </p>
           </div>
         </div>

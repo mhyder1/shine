@@ -1,6 +1,8 @@
+import students from "./assets/muslim_students.jpg";
 const Join = () => {
   return (
     <div class="container mt-4">
+      {/* <img src={students} class="join" /> */}
       <h2>JOIN THE TEAM</h2>
       <p>
         We are actively seeking reliable, resourceful team players with valuable
