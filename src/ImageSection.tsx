@@ -1,6 +1,6 @@
 import flower from "./assets/flower.jpeg";
 import event from "./assets/event.jpg";
-import showcase3 from "./assets/bg-showcase-3.jpg";
+// import showcase3 from "./assets/bg-showcase-3.jpg";
 import grad from "./assets/grad.jpg";
 
 const ImageSection = () => {
