@@ -1,4 +1,4 @@
-import students from "./assets/muslim_students.jpg";
+// import students from "./assets/muslim_students.jpg";
 const Join = () => {
   return (
     <div class="container mt-4">
