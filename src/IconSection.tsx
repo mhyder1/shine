@@ -13,7 +13,7 @@ const IconSection = () => {
               </div>
               <h3>Education</h3>
               <p class="lead mb-0">
-                This theme will look great on any device, no matter the size!
+                Illuminating the journey to unlocking your full potential.
               </p>
             </div>
           </div>
@@ -27,7 +27,8 @@ const IconSection = () => {
               </div>
               <h3>Community</h3>
               <p class="lead mb-0">
-                Featuring the latest build of the new Bootstrap 5 framework!
+                Together, we can uplift each other, celebrate our differences,
+                and create spaces where everyone shines.
               </p>
             </div>
           </div>
@@ -41,8 +42,8 @@ const IconSection = () => {
               </div>
               <h3>Scholarships</h3>
               <p class="lead mb-0">
-                Ready to use with your own content, or customize the source
-                files!
+                With the support of scholarships, bright minds can shine even
+                brighter and make their mark on the world.
               </p>
             </div>
           </div>

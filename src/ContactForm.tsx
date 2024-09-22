@@ -43,7 +43,7 @@ const ContactForm = () => {
   };
   return (
     <form onSubmit={sendEmail}>
-      <div class="form-group">
+      <div class="form-group mb-3">
         <label for="name">
           Full name<span>*</span>
         </label>
@@ -56,7 +56,7 @@ const ContactForm = () => {
           name="from_name"
         />
       </div>
-      <div class="form-group">
+      <div class="form-group mb-3">
         <label for="email">
           Email address<span>*</span>
         </label>

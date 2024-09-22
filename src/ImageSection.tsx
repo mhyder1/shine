@@ -14,11 +14,11 @@ const ImageSection = () => {
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
             <h2>Educational Programs</h2>
             <p class="lead mb-0">
-              Our educational events are designed to inspire and empower all by
-              providing structured learning opportunities that will enhance
-              knowledge and skills in specific subject areas. These programs
-              include workshops, conferences, mentorship, and hands-on
-              experiences, targeting various age groups and skill levels.
+              SHINE's educational events are designed to inspire and empower all
+              by providing learning opportunities that will enhance knowledge
+              and skills in specific subject areas. These programs include
+              workshops, conferences, mentorship, and hands-on experiences,
+              targeting various age groups and skill levels.
             </p>
           </div>
         </div>
@@ -50,7 +50,7 @@ const ImageSection = () => {
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
             <h2>Scholarships</h2>
             <p class="lead mb-0">
-              Shine's Scholarship Program offers financial support to
+              SHINE's Scholarship Program offers financial support to
               outstanding high school seniors pursuing higher education, helping
               to ease the burden of tuition and other academic expenses. It
               empowers future leaders by recognizing academic excellence,

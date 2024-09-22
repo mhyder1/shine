@@ -28,12 +28,14 @@ const About = () => {
           .
         </p>
       </section>
+      <hr />
       <section class="mb-5">
         <h2>TEAM</h2>
         <p>Robyn Abdusamad, Founder & Executive Event Director</p>
         <p>Kimberly Harper, NCMF Co-Founder & Logistics Manager</p>
         <p>Wali A. Saleem, Financial Officer</p>
       </section>
+      <hr />
       <section>
         <h2>MEDIA</h2>
         <p>
