@@ -1,4 +1,4 @@
-import flower from "./assets/flower.jpeg";
+import community from "./assets/community.jpg";
 import event from "./assets/event.jpg";
 import grad from "./assets/grad.jpg";
 
@@ -26,7 +26,7 @@ const ImageSection = () => {
           <div
             class="col-lg-6 text-white showcase-img"
             style={{
-              backgroundImage: `url(${flower})`,
+              backgroundImage: `url(${community})`,
               backgroundPosition: "center",
               backgroundSize: "contain",
               backgroundRepeat: "no-repeat",

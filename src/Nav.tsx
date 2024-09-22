@@ -1,4 +1,4 @@
-import flower from "./assets/flower.png";
+import logo from "./assets/sun_logo_2.png";
 import { Link } from "wouter";
 
 const Nav = () => {
@@ -6,7 +6,7 @@ const Nav = () => {
     <nav class="navbar navbar-expand-lg navbar-light bg-light static-top p-0">
       <div class="container px-5">
         <Link class="navbar-brand" href="/">
-          <img src={flower} style={{ width: "3rem" }} alt="S.H.I.N.E logo" />
+          <img src={logo} style={{ width: "3rem" }} alt="S.H.I.N.E logo" />
         </Link>
         <button
           class="navbar-toggler"
