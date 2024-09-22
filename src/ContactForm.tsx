@@ -42,7 +42,7 @@ const ContactForm = () => {
     e.target.reset();
   };
   return (
-    <form onSubmit={sendEmail}>
+    <form onSubmit={sendEmail} class="mb-5">
       <div class="form-group mb-3">
         <label for="name">
           Full name<span>*</span>
