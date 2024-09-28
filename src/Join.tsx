@@ -12,7 +12,7 @@ const Join = () => {
           backgroundImage: `url(${students})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          backgroundPosition: "center top",
+          backgroundPosition: "center center",
           height: "55vh",
           padding: "1em",
         }}
