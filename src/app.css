@@ -10,3 +10,7 @@
   z-index: -1;
   opacity: 0.5;
 }
+
+.event {
+  height: 100px;
+}

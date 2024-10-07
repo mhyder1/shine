@@ -1,10 +1,18 @@
 import flyer from "./assets/flyer.jpg";
+import art from "./assets/women_events/art.jpg";
+import banquet from "./assets/women_events/banquet.jpg";
+import banner from "./assets/women_events/banner.jpg";
+import event from "./assets/women_events/event.jpg";
+import event2 from "./assets/women_events/event_2.jpg";
+import festival from "./assets/women_events/festival.jpg";
+import painting from "./assets/women_events/painting.jpg";
 const Events = () => {
   return (
     <div class="container mt-4">
       <h2>EVENTS</h2>
       <p>
-        {/* <i class="fa-solid fa-star-and-crescent mr-2"></i> */}
+        {/* <i class="fa-solid fa-star-and-cre
+        scent mr-2"></i> */}
         <a href="https://www.ncmuslimfestival.com/" target="_blank">
           NC Muslim Festival
         </a>
@@ -48,6 +56,15 @@ const Events = () => {
             style={{ width: "50%", height: "50%" }}
           />
           <h5>Past events</h5>
+          <div class="d-flex flex-wrap gap-5">
+            <img class="event" src={art} alt="art event" />
+            <img class="event" src={banner} alt="nc muslim festival event" />
+            <img class="event" src={banquet} alt="banquet event" />
+            <img class="event" src={event2} alt="event" />
+            <img class="event" src={event} alt="event 2" />
+            <img class="event" src={festival} alt="festival event" />
+            <img class="event" src={painting} alt="painting event" />
+          </div>
         </section>
         <hr class="m-5" />
         <section>
@@ -58,6 +75,29 @@ const Events = () => {
         <section>
           {/* <i class="fa-solid fa-children"></i>  */}
           <h3>For Children</h3>
+          <p>
+            Young people are an important asset to the future of our society.
+            Therefore, our children-teen educational programs and events help to
+            promote their development in becoming leaders and decision-makers.
+          </p>
+          <p>
+            One of our new initiatives for the youth is the Triad Muslim Youth
+            Council. This volunteer organization is for middle and high school
+            students within the Piedmont-Triad and offers personal and
+            professional development through various experiences.
+          </p>
+          <p>
+            For more information on getting your child(ren) involved, register
+            to attend one of our upcoming interest meetings.{" "}
+          </p>
+          Special programs we host for the youth are the following:
+          <ul>
+            <li>Conferences</li>
+            <li>Workshops</li>
+            <li>Summer Camps</li>
+            <li>Social Events</li>
+            <li>Field Trips</li>
+          </ul>
         </section>
       </p>
     </div>
