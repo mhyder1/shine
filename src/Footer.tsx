@@ -5,7 +5,7 @@ const Footer = () => {
     <footer class="footer bg-light" style={{ marginTop: "auto" }}>
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
+          <div class="col-lg-10 h-100 text-center text-lg-start my-auto">
             <ul class="list-inline mb-2">
               <li class="list-inline-item">
                 <Link href="/about">About</Link>
@@ -26,9 +26,19 @@ const Footer = () => {
             <p class="text-muted small mb-4 mb-lg-0">
               <span>&copy;</span> SHINE{" "}
               <span>{new Date().getFullYear()}. All Rights Reserved.</span>
+              <span style={{ marginLeft: ".5rem", marginRight: ".5rem" }}>
+                |
+              </span>
+              <span>P.O. Box 112, Sedalia, NC 27342</span>
+              <span style={{ marginLeft: ".5rem", marginRight: ".5rem" }}>
+                |
+              </span>
+              <span>SHINE is a registered 501(c)3 nonprofit.</span>
+              <br />
+              <strong>EIN: 87-1024593</strong>
             </p>
           </div>
-          <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
+          <div class="col-lg-2 h-100 text-center text-lg-end my-auto">
             <ul class="list-inline mb-0">
               <li class="list-inline-item me-4">
                 <a href="#!">
