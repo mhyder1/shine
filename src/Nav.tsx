@@ -20,7 +20,7 @@ const Nav = () => {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav ms-auto align-items-center">
             <li class="nav-item active">
               <Link class="nav-link" href="/about">
                 About <span class="sr-only">(current)</span>
@@ -39,6 +39,11 @@ const Nav = () => {
             <li class="nav-item">
               <Link class="nav-link" href="/contact">
                 Contact
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" href="/donate">
+                <button class="btn btn-primary btn-sm">Donate</button>
               </Link>
             </li>
           </ul>

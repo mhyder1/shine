@@ -7,6 +7,7 @@ import Contact from "./Contact";
 import Home from "./Home";
 import Events from "./Events";
 import Join from "./Join";
+import Donate from "./Donate";
 export function App() {
   return (
     <>
@@ -17,6 +18,7 @@ export function App() {
         <Route path="/events" component={Events} />
         <Route path="/join" component={Join} />
         <Route path="/contact" component={Contact} />
+        <Route path="/donate" component={Donate} />
       </Switch>
       {/* <section class="testimonials text-center bg-light">
         <div class="container">

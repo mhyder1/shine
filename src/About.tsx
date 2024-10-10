@@ -34,6 +34,7 @@ const About = () => {
         <p>Robyn Abdusamad, Founder & Executive Event Director</p>
         <p>Kimberly Harper, NCMF Co-Founder & Logistics Manager</p>
         <p>Wali A. Saleem, Financial Officer</p>
+        <p>Camilia Majette, NCMF Communications & Marketing Manager</p>
       </section>
       <hr />
       <section>
