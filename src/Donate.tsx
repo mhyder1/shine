@@ -1,4 +1,3 @@
-import { Link } from "wouter";
 import donate from "./assets/donate.png";
 const Donate = () => {
   return (
