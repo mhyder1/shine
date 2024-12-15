@@ -8,6 +8,9 @@ import Home from "./Home";
 import Events from "./Events";
 import Join from "./Join";
 import Donate from "./Donate";
+import Men from "./programs/Men";
+import Women from "./programs/Women";
+import Children from "./programs/Children";
 export function App() {
   return (
     <>
@@ -16,6 +19,9 @@ export function App() {
         <Route path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/events" component={Events} />
+        <Route path="/men" component={Men} />
+        <Route path="/women" component={Women} />
+        <Route path="/children" component={Children} />
         <Route path="/join" component={Join} />
         <Route path="/contact" component={Contact} />
         <Route path="/donate" component={Donate} />

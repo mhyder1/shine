@@ -31,6 +31,34 @@ const Nav = () => {
                 Events
               </Link>
             </li>
+            <li class="nav-item dropdown">
+              <Link
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Programs
+              </Link>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="/men">
+                    For Men
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/women">
+                    For Women
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/children">
+                    For Children
+                  </a>
+                </li>
+              </ul>
+            </li>
             <li class="nav-item">
               <Link class="nav-link" href="/join">
                 Join

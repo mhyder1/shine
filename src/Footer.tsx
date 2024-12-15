@@ -2,7 +2,7 @@ import { Link } from "wouter";
 
 const Footer = () => {
   return (
-    <footer class="footer bg-light" style={{ marginTop: "auto" }}>
+    <footer class="footer bg-light mt-5" style={{ marginTop: "auto" }}>
       <div class="container">
         <div class="row">
           <div class="col-lg-10 h-100 text-center text-lg-start my-auto">
