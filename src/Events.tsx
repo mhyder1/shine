@@ -21,7 +21,13 @@ const Events = () => {
     <div class="container mt-4">
       <h2>EVENTS</h2>
       <hr class="m-5" />
-      <h2 style={{ color: "rgb(117 198 96)" }}>NC Muslim Festival</h2>
+      <a
+        href="https://www.ncmuslimfestival.com"
+        target="blank"
+        style={{ color: "rgb(117 198 96)" }}
+      >
+        <h2 style={{ color: "rgb(117 198 96)" }}>NC Muslim Festival</h2>
+      </a>
       <address>
         SAVE THE DATE
         <br />
